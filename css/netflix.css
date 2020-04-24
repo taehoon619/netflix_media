@@ -1,0 +1,883 @@
+.netflix_free {
+    width: 100%;
+}
+
+.netflix_free_container {
+    width: 100%;
+    border-bottom: 8px solid #222;
+    background-image: url(../img/free/netflix_01_main.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.netflix_back {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 0%,
+        rgba(0, 0, 0, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    );
+}
+
+.netflix_top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 56px;
+    padding-top: 20px;
+}
+.netflix_logo img {
+    margin-top: 0.5rem;
+    height: 45px;
+    width: 167px;
+}
+
+.netflix_rog {
+    background-color: #e50914;
+    padding: 9px 15px;
+    border-radius: 3px;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 1rem;
+    display: block;
+}
+/* 컨텐츠 시작 */
+.netflix_content {
+    padding: 70px 45px;
+}
+
+.netflix_text { 
+    max-width: 950px;
+    width: 100%;
+    padding: 75px 0;
+    margin: 0 auto;
+    text-align: center;
+    word-break: keep-all;
+}
+
+.netflix_text h1 {
+    max-width: 640px;
+    margin: 0 auto; 
+}
+
+.netflix_text h2 {
+    margin: 1rem auto;
+}
+/* 이메일 폼 */
+
+.form_email_container {
+    display: flex;
+    flex-direction: column;
+    padding-top: .85rem;
+}
+
+.netflix_text_form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.email_add {
+    width: 500px;
+    height: 70px;
+    line-height: 70px;
+    background-color: white;
+    color: gray;
+    padding: 0 20px;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 4px 0 0 4px;
+}
+
+.free_30 {
+    width: 260px;
+    height: 70px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #e50914;
+    border: 1px solid #e50914;
+    font-size: 20px;
+    color: white;
+    border-radius:0 4px 4px 0;
+}
+
+.email_text {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}    
+
+.email_text_2 {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 10px;
+    display: block
+}
+
+.netflix_tv {
+    width: 100%;
+    height: auto;
+    padding: 70px 45px;
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.netflix_tv_container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.netflix_tv_text {
+    width: 52%;
+    height: 100%;
+    padding: 0px 48px 0px 0px;
+    word-break: keep-all;
+}
+/* 왜 마진 탑이 들어갈까 */
+.netflix_tv_text h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    word-break: keep-all;
+}
+
+.netflix_tv_text h2 {
+    margin: 19.5px 0px 6.5px;
+}
+
+.tv_image {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex: 0 1 auto;
+    -webkit-box-flex: 0;
+    box-sizing: border-box;
+}
+
+.tv_image_wrap {
+    margin: -10% -5% -5% 0;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+/* tv 크기 문제 */
+.tv_image img {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+
+/* 스크린도 안맞는다 */
+.tv_screen {
+    width: 100%;
+    height: 100%;
+    max-width: 75%;
+    max-height: 55%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tv_screen video {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    object-fit: contain;
+}
+
+/* 모바일 */
+.netflix_mobile {
+    width: 100%;
+    padding: 70px 45px;
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.netflix_mobile_container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.netflix_mobile_text {
+    width: 52%;
+    height: 100%;
+    padding: 0px 0px 48px 0px;
+}
+
+/* 왜 마진 탑이 들어갈까 */
+.netflix_mobile_text h1 {
+    margin-bottom: 8px;
+}
+
+.netflix_mobile_text h2 {
+    margin: 19.5px 0px 6.5px;
+}
+
+.mobile_image {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex: 0 1 auto;
+    -webkit-box-flex: 0;
+    box-sizing: border-box;
+    padding-right: 90px;
+    position: relative;
+}
+
+.mobile_image_wrap {
+    margin: -10% -5% -5% 0;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.mobile_image img {
+    width: 100%;
+    min-height: 100%;
+    border: 0;  
+}
+
+/* 스크린도 안맞는다 */
+.mobile_screen {
+    padding: 8px 12px;
+    position: absolute;
+    z-index: 20;
+    left: 50%;
+    bottom: 6%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    background: black;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 60%;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 0.75em;
+}
+
+.mobile_screen_wrap {
+    display: flex;
+}
+
+.mobile_boxshot {
+    margin-right: 1em;
+}
+
+.mobile_screen_wrap img {
+    width: 4em;
+    height: 5em;
+}
+
+.mobile_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mobile_content a {
+    margin-top: 10px;
+    color: #0071eb;
+    
+}
+
+.netflix_device {
+    padding: 70px 45px;
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+.netflix_device_container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.netflix_device_text {
+    width: 52%;
+    height: 100%;
+    padding: 0px 48px 0px 0px;
+    word-break: keep-all;
+}
+/* 왜 마진 탑이 들어갈까 */
+.netflix_device_text h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.netflix_device_text h2 {
+    margin: 19.5px 0px 6.5px;
+}
+
+.device_image {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex: 0 1 auto;
+    -webkit-box-flex: 0;
+    box-sizing: border-box;
+}
+
+.device_image_wrap {
+    margin: -10% -10% 0 0;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+/* tv 크기 문제 */
+.device_image img {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+
+/* 스크린도 안맞는다 */
+.device_screen {
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.device_screen video {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    object-fit: contain;
+}
+
+.netflix_qna {
+    text-align: center;
+    padding: 70px 45px;
+    background-color: black;
+    border-bottom: 8px solid #222;
+    color: white;
+}
+
+.netflix_qna_container {
+    font-size: 1.625rem;
+}
+
+.netflix_qna_container h1 {
+    margin-bottom: 8px;
+}
+/* 아코디언 */
+.qna_list {
+    width: 75%;
+    margin: 2.5rem auto;
+    max-width: 850px;
+}
+
+.list_wrap {
+    margin: 0 0 8px 0;
+}
+
+.faq_accordion {
+    background-color: #303030;
+    text-align: left;
+    display: block;
+    margin-bottom: 1px;
+    padding: 20px 31px 20px 35px;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.faq_panel {
+    max-width: 1200px;
+    height: auto;
+    padding: 40px;
+    text-align: left;
+    font-size: 26px;
+    font-weight: 400;
+    box-sizing: border-box;
+    background-color: #303030;
+    color: white;
+    display: none;
+    overflow: hidden;
+}
+/*
+.faq_accordion img {
+    position: absolute;
+    top: 28%;
+    right: 1.3em;
+    width: 2em;
+    height: 2em;
+    transition: transform 0.2s;
+}
+
+.active {
+    transform: rotate(45deg);
+}
+*/
+
+
+.faq_accordion::after {
+    background-image: url(../img/icon_plus.svg);
+    position: absolute;
+    top: 28%;
+    right: 1.3em;
+    width: 2rem;
+    height: 2rem;
+    content: '';
+    transition: transform 0.2s;
+} 
+
+.active::after {
+    transform: rotate(45deg);
+} 
+/*
+.qna_list h2 {
+    margin: 0 0 8px 0;
+}
+
+.qna_list button {
+    background-color: #303030;
+    text-align: left;
+    display: block;
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    margin-bottom: 1px;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    border: 0;
+}
+
+.qna_email {
+    width: 100%;
+}
+
+.qna_email form {
+    padding-top: 13.6px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+*/
+
+
+
+@media screen and (max-width: 949px) {
+    .h1_blk {
+        font-size: 50px;
+    }
+
+    .form_email_container {
+        flex-direction: column-reverse;
+    }
+    .netflix_text_form {
+        flex-direction: column;
+        height: auto;
+    }
+    .email_add {
+        margin-bottom: 20px;
+        border-radius: 4px;
+        height: 60px;
+    }
+
+    .free_30 {
+        border-radius: 4px;
+        height: 44px;
+        width: 180px;
+    }
+    .email_text {
+        line-height: 18px;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    /* tv */
+
+    .netflix_tv_container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .netflix_tv_text {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 0px 48px 0px 0px;
+        word-break: keep-all;
+    }
+    .netflix_tv_text h1 {
+        margin-bottom: 8px;
+        font-size: 40px;
+    }
+
+    .netflix_tv_text h2 {
+        font-size: 20px;
+    }
+    
+    .tv_image {
+        width: 60%;
+        height: 100%;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex: 0 1 auto;
+        -webkit-box-flex: 0;
+        box-sizing: border-box;
+    }
+
+    .tv_image_wrap {
+        margin: -5% -5% -5% 0;
+        overflow: hidden;
+        display: block;
+        position: relative;
+    }
+    /* 모바일 */ 
+
+    .netflix_mobile_container {
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .netflix_mobile_text {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 0px 48px 0px 0px;
+        word-break: keep-all;
+    }
+
+    .netflix_mobile_text h1 {
+        margin-bottom: 8px;
+        font-size: 40px;
+        line-height: 4  0px;
+    }
+
+    .netflix_mobile_text h2 {
+        font-size: 20px;
+    }
+
+    .mobile_image {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .mobile_image_wrap {
+        margin: 0 0 -5% 10%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    /* 디바이스 */
+
+    .netflix_device_container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .netflix_device_text {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 0px 48px 0px 0px;
+        word-break: keep-all;
+    }
+
+    .netflix_device_text h1 {
+        font-size: 40px;
+    }
+
+    .netflix_device_text h2 {
+        font-size: 20px;
+    }
+
+    .device_image {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex: 0 1 auto;
+        -webkit-box-flex: 0;
+        box-sizing: border-box;
+    }
+
+    .device_image_wrap {
+        margin: 0 0 0 0;
+        overflow: hidden;
+        display: block;
+        position: relative;
+    }
+    /* 아코디언 */
+
+    .faq_accordion { width: 100%; min-width: 300px; height: 58px;}
+    .faq_accordion h2 {font-size: 20px;}
+    .faq_panel { width: 100%; font-size: 20px;}
+    .faq_text {font-size: 20px; color: white;}
+    .faq_accordion::after { width: 1rem; height: 1rem; top: 38%;}
+ 
+
+@media screen and (max-width: 740px) {
+    .netflix_text_form {
+        height: 44px;
+    }
+
+    .footer_list {
+        max-width: 1000px;
+        padding: 0;
+        margin: 0 auto;
+        font-size: 13px;
+        box-sizing: border-box;
+    }
+
+    .footer_list div {
+        width: 32.3333%;
+        margin-bottom: 16px;
+        padding-right: 12px;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .netflix_content {
+        height: 512px;
+    }
+    .netflix_logo img {
+        width: 120px;
+        height: 28px;
+    }
+    .netflix_rog {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    /* 컨텐츠 시작 */
+    .netflix_content {
+        padding: 30px 0;
+        margin: 0 auto;
+    }
+
+    .netflix_text {
+        width: 100%;
+        padding: 75px 0;
+        text-align: center;
+        word-break: keep-all;
+    }
+
+    .h1_main {
+        margin: 0 auto;
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    .netflix_text h2 {
+        margin: 1rem auto;
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .email_text {
+        margin: 1rem auto;
+        font-size: 15px; 
+    }
+
+    .netflix_text_form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto;
+        padding: 0 5%;
+    }
+    .email_add {
+            width: 100%;
+        }
+        
+    .email_text {
+        font: 10px;
+        font-weight: 100;
+        width: 60%;
+        line-height: 24px;
+    }
+    .netflix_tv_text {
+        text-align: center;
+        padding: 0;
+    }
+
+    .netflix_tv_text h1 {
+        font-size: 26px;
+        word-break: keep-all;
+    }
+
+    .netflix_tv_text h2 {
+        font-size: 18px;
+        margin: 13.5px 0px 4.5px;
+    }
+
+    .tv_image {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex: 0 1 auto;
+        -webkit-box-flex: 0;
+        box-sizing: border-box;
+    }
+
+    .tv_image_wrap {
+        margin: -5% -5% -5% 0;
+        overflow: hidden;
+        display: block;
+        position: relative;
+    }
+
+    .netflix_mobile_text {
+        text-align: center;
+        padding: 0;
+    }
+
+    .netflix_mobile_text h1 {
+        font-size: 26px;
+        word-break: keep-all;
+        line-height: 28px;
+    }
+
+    .netflix_mobile_text h2 {
+        font-size: 18px;
+        margin: 19.5px 0px 6.5px;
+    }
+
+    .mobile_image {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        display: flex;
+        flex: 0 1 auto;
+        -webkit-box-flex: 0;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .mobile_image_wrap {
+        margin: 0 0 0 0;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .netflix_device_text {
+        text-align: center;
+        padding: 0;
+    }
+
+    .netflix_device_text h1 {
+        font-size: 26px;
+        word-break: keep-all;
+    }
+
+    .netflix_device_text h2 {
+        font-size: 18px;
+        margin: 19.5px 0px 6.5px;
+    }
+
+    .device_image {
+        width: 100%;
+    }
+
+    .device_image_wrap {
+        margin: 0;
+    }
+
+    .h1_blk {
+        font-size: 26px;
+    }
+
+        /* 아코디언 */
+    .netflix_qna {
+        padding: 50px 0;
+        background-color: black;
+        border-bottom: 8px solid #222;
+        color: white;
+    }
+
+    .qna_list {
+        width: 100%;
+        max-width: 850px;
+    }
+
+    .faq_accordion {
+        padding: 0.8em 2.2em 0.8em 1.2em;
+        margin-bottom: 1px;
+        font-weight: 400;
+        position: relative;
+        width: 100%;
+        border: 0;
+        display: block;
+        text-align: left;
+        background: #303030;
+    }
+
+    .faq_accordion h2 {
+        font-size: 18px;
+    }
+
+    .faq_panel {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .faq_text {
+        font-size: 18px;
+        color: white;
+    }
+
+    .faq_accordion::after {
+        width: 1rem;
+        height: 1rem;
+        top: 38%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .netflix_top {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 10%;
+        height: 65px;
+    }
+
+    .netflix_logo img {
+        height: 24px;
+        width: 30%;
+    }
+
+
+    .netflix_rog {
+        padding: 4px 8px;
+        margin-top: 5.6px;
+        font-size: 14.4px;
+    }
+
+
+}
+
+/* 480 786 1024 1280 1440 */
