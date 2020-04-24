@@ -860,7 +860,7 @@
 @media screen and (max-width: 480px) {
     
     .mobile_screen_wrap img {
-        height: 3em;
+        height: 2em;
     }
 
     .email_text {
@@ -868,7 +868,7 @@
     }
     
     .footer_list {
-        width: 31%;
+        width: 30%;
     }
 
     .copy_text {
