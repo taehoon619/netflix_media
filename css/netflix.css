@@ -857,9 +857,24 @@
 
 
 
-/*@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     
+    .mobile_screen_wrap img {
+        height: 3em;
+    }
 
-} */
+    .email_text {
+         word-break: keep-all;
+    }
+    
+    .footer_list {
+        width: 31%;
+    }
+
+    .copy_text {
+         word-break: keep-all;
+    }
+
+} 
 
 /* 480 786 1024 1280 1440 */
