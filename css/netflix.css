@@ -278,7 +278,7 @@
 
 .mobile_screen_wrap img {
     width: 4em;
-    height: 5em;
+    height: 4em;
 }
 
 .mobile_content {
@@ -857,27 +857,9 @@
 
 
 
-@media screen and (max-width: 480px) {
-    .netflix_top {
-        display: flex;
-        justify-content: space-between;
-        margin: 0 10%;
-        height: 65px;
-    }
+/*@media screen and (max-width: 480px) {
+    
 
-    .netflix_logo img {
-        height: 24px;
-        width: 30%;
-    }
-
-
-    .netflix_rog {
-        padding: 4px 8px;
-        margin-top: 5.6px;
-        font-size: 14.4px;
-    }
-
-
-}
+} */
 
 /* 480 786 1024 1280 1440 */
