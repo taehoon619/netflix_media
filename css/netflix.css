@@ -680,26 +680,6 @@
     .faq_accordion::after { width: 1rem; height: 1rem; top: 38%;}
 
 
-@media screen and (max-width: 736px) {
-    .netflix_text_form {
-        height: 44px;
-    }
-
-    .footer_list {
-        max-width: 1000px;
-        padding: 0;
-        margin: 0 auto;
-        font-size: 13px;
-        box-sizing: border-box;
-    }
-
-    .footer_list div {
-        width: 32.3333%;
-        margin-bottom: 16px;
-        padding-right: 12px;
-        display: inline-block;
-    }
-}
 
 @media screen and (max-width: 549px) {
     .netflix_content {
