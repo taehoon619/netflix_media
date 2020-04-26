@@ -254,7 +254,7 @@
 .mobile_screen {
     padding: 8px 12px;
     position: absolute;
-    z-index: 20;
+    z-index: 20;  
     left: 50%;
     bottom: 6%;
     transform: translateX(-50%);
@@ -272,13 +272,13 @@
     display: flex;
 }
 
-.mobile_boxshot {
-    margin-right: 1em;
+.mobile_boxshot img {
+    margin-right: 1rem;
 }
 
 .mobile_screen_wrap img {
-    width: 4em;
-    height: 4em;
+    width: 4rem;
+    height: 4rem;
 }
 
 .mobile_content {
@@ -449,6 +449,52 @@
 .active::after {
     transform: rotate(45deg);
 } 
+
+.form_email_container2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: .85rem;
+}
+
+.netflix_text_form2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.email_add2 {
+    width: 500px;
+    height: 70px;
+    line-height: 70px;
+    background-color: white;
+    color: gray;
+    padding: 0 20px;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 4px 0 0 4px;
+}
+
+.free_302 {
+    width: 260px;
+    height: 70px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #e50914;
+    border: 1px solid #e50914;
+    font-size: 20px;
+    color: white;
+    border-radius:0 4px 4px 0;
+}
+
+.email_text2 {
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}    
 /*
 .qna_list h2 {
     margin: 0 0 8px 0;
@@ -634,7 +680,7 @@
     .faq_accordion::after { width: 1rem; height: 1rem; top: 38%;}
 
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 736px) {
     .netflix_text_form {
         height: 44px;
     }
@@ -708,10 +754,35 @@
         padding: 0 5%;
     }
     .email_add {
-            width: 100%;
+        width: 100%;
         }
         
     .email_text {
+        font: 10px;
+        font-weight: 100;
+        width: 60%;
+        line-height: 24px;
+    }
+
+    .email_text2 {
+        margin: 1rem auto;
+        font-size: 15px; 
+    }
+
+    .netflix_text_form2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px auto;
+        padding: 0 5%;
+    }
+    .email_add2 {
+        width: 100%;
+        }
+        
+    .email_text2 {
         font: 10px;
         font-weight: 100;
         width: 60%;
@@ -853,6 +924,12 @@
         top: 38%;
     }
 
+    .netflix_footer {
+        width: 100%;
+        padding: 70px 0;
+        
+    }
+
 }
 
 
@@ -869,7 +946,7 @@
     
     .netflix_footer {
         width: 100%;
-        padding: 0;
+        padding: 70px 0;
         display: block;
     }
     
