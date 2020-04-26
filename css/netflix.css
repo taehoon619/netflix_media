@@ -632,7 +632,7 @@
     .faq_panel { width: 100%; font-size: 20px;}
     .faq_text {font-size: 20px; color: white;}
     .faq_accordion::after { width: 1rem; height: 1rem; top: 38%;}
- 
+
 
 @media screen and (max-width: 740px) {
     .netflix_text_form {
@@ -857,22 +857,52 @@
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
     
     .mobile_screen_wrap img {
-        height: 2em;
+        height: auto;
     }
 
     .email_text {
-         word-break: keep-all;
+        word-break: keep-all;
+    }
+    
+    .netflix_footer {
+        width: 100%;
+        padding: 0;
+        display: block;
+    }
+    
+    .netflix_footer_warp {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .netflix_footer_container {
+        width: 100%;
+        margin-top: 0;
+        min-height: 190px;
+        padding-bottom: 20px;
+        font-size: 1rem;
+        color: #757575;
+        position: relative;
     }
     
     .footer_list {
-        width: 30%;
+        max-width: 1000px;
+        padding: 0;
+        margin: 0 auto;
+        font-size: 13px;
+        box-sizing: border-box;
     }
-
+    
+    .footer_list div {
+        width: 50%;
+        
+    }
+    
     .copy_text {
-         word-break: keep-all;
+        word-break: keep-all;
     }
 
 } 
