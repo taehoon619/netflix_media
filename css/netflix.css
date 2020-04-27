@@ -832,6 +832,8 @@
         position: relative;
     }
 
+
+
     .netflix_device_text {
         text-align: center;
         padding: 0;
@@ -916,8 +918,8 @@
 
 @media screen and (max-width: 360px) {
     
-    .mobile_screen_wrap img {
-        height: auto;
+    .mobile_screen {
+        height: 65px;
     }
 
     .email_text {
