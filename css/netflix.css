@@ -253,6 +253,7 @@
 /* 스크린도 안맞는다 */
 .mobile_screen {
     padding: 8px 12px;
+    position: relative;
     position: absolute;
     z-index: 20;  
     left: 50%;
@@ -286,6 +287,12 @@
     flex-direction: column;
     justify-content: center;
 }
+/*
+.dowload {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}   */
 
 .mobile_content a {
     margin-top: 10px;
