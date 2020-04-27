@@ -558,6 +558,33 @@
         font-size: 18px;
         margin-bottom: 50px;
     }
+
+    .form_email_container2 {
+        flex-direction: column-reverse;
+    }
+
+    .netflix_text_form2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .email_add2 {
+        margin-bottom: 20px;
+        border-radius: 4px;
+        height: 60px;
+    }
+
+    .free_302 {
+        border-radius: 4px;
+        height: 44px;
+        width: 180px;
+    }
+
+    .email_text2 {
+        line-height: 18px;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
     /* tv */
 
     .netflix_tv_container {
@@ -916,51 +943,5 @@
 
 
 
-@media screen and (max-width: 360px) {
-    
-
-    .email_text {
-        word-break: keep-all;
-    }
-    
-    .netflix_footer {
-        width: 100%;
-        padding: 70px 0;
-        display: block;
-    }
-    
-    .netflix_footer_warp {
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-    
-    .netflix_footer_container {
-        width: 100%;
-        margin-top: 0;
-        min-height: 190px;
-        padding-bottom: 20px;
-        font-size: 1rem;
-        color: #757575;
-        position: relative;
-    }
-    
-    .footer_list {
-        max-width: 1000px;
-        padding: 0;
-        margin: 0 auto;
-        font-size: 13px;
-        box-sizing: border-box;
-    }
-    
-    .footer_list div {
-        width: 50%;
-        
-    }
-    
-    .copy_text {
-        word-break: keep-all;
-    }
-
-} 
 
 /* 480 786 1024 1280 1440 */
