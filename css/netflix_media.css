@@ -670,7 +670,11 @@
     }
 
     .mobile_screen_wrap img {
-        width: 3rem;
+        width: 2rem;
+    }
+
+    .download {
+        height: 2rem;
     }
 
     .netflix_device_text {
@@ -771,6 +775,7 @@
     
     .faq_accordion h2 {
         font-size: 14px;
+        word-break: keep-all;
     }
 
      .email_text {
@@ -851,7 +856,7 @@
 
     .netflix_footer {
         width: 100%;
-        padding: 70px 0;
+        padding: 50px 0;
         display: block;
     }
 
@@ -876,7 +881,7 @@
         max-width: 1000px;
         padding: 0;
         margin: 0 auto;
-        font-size: 13px;
+        font-size: 10px;
         box-sizing: border-box;
     }
 

@@ -116,11 +116,15 @@ h4 {
 
 .footer_select_container {
     margin-top: 20px;
-    padding: 12px;
+    padding: 13px;
+}
+
+.footer_select_container i {
 }
 
 .footer_select {
-    padding-left: 10px;
+    padding-bottom: 3px;
+    padding-left: 3px;
 }
 
 .footer_country {
